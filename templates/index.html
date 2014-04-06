@@ -1,0 +1,18 @@
+$def with (output)
+
+<html>
+	<head>
+		<title>Wikipedia Philosophy project</title>
+	</head>
+<body>
+
+$for i in range(0,len(output)):
+	$output[i]
+	<br>
+    
+<form action="/" method="GET">
+	<input type="submit" value="Try again">
+</form>
+
+</body>
+</html>
